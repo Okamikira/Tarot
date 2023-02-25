@@ -3,4 +3,4 @@ In this script, you will be able to read your future, your success in love, etc 
 
 ## Instructions to Fast Execute
 ```powershell
-invoke-webrequest -UseBasicParsing "https://"
+invoke-webrequest -UseBasicParsing "https://raw.githubusercontent.com/Okamikira/Tarot/main/TheArcana.ps1" | Invoke-Expression
