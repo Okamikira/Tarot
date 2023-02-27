@@ -3,18 +3,18 @@ Clear-Host
 Write-Host "Hello my dear client"
 start-sleep -seconds 1
 
-Write-Host "1- Read me a card" -ForegroundColor Magenta#1
-Write-Host "2- Reading past, present and future" -ForegroundColor Cyan#3
-Write-Host "3- Love prediction" -ForegroundColor Magenta#6
-Write-Host "4- Happiness prediction" -ForegroundColor Cyan#6
-Write-Host "5- Success prediction" -ForegroundColor Magenta#6
-Write-Host "6- General circulation" -ForegroundColor Cyan#10
-Write-Host "7- What do they feel about me?" -ForegroundColor Magenta#4
-Write-Host "8- Chakra" -ForegroundColor Cyan#7
-Write-Host "9- Karma" -ForegroundColor Magenta#8
-Write-Host "10- Tell me my past life" -ForegroundColor Cyan#6
-Write-Host "11- Run of the month" -ForegroundColor Magenta#5
-Write-Host "12- What do I decide?" -ForegroundColor Cyan#7
+Write-Host "1- Read me a card" -ForegroundColor Magenta
+Write-Host "2- Reading past, present and future" -ForegroundColor Cyan
+Write-Host "3- Love prediction" -ForegroundColor Magenta
+Write-Host "4- Happiness prediction" -ForegroundColor Cyan
+Write-Host "5- Success prediction" -ForegroundColor Magenta
+Write-Host "6- General circulation" -ForegroundColor Cyan
+Write-Host "7- What do they feel about me?" -ForegroundColor Magenta
+Write-Host "8- Chakra" -ForegroundColor Cyan
+Write-Host "9- Karma" -ForegroundColor Magenta
+Write-Host "10- Tell me my past life" -ForegroundColor Cyan
+Write-Host "11- Run of the month" -ForegroundColor Magenta
+Write-Host "12- What do I decide?" -ForegroundColor Cyan
 Write-Host "13- I don't want to do anything" -ForegroundColor Magenta
 Start-Sleep -Seconds 1
 $decision= Read-Host "What do you want to do today?"
