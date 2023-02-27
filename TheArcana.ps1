@@ -2,199 +2,40 @@ Clear-Host
 
 Write-Host "Hello my dear client"
 start-sleep -seconds 1
-$opcion1= "Read me a card"
-$opcion2= "Reading past, present and future"
-$opcion3= "Love prediction"
-$opcion4= "Happiness prediction"
-$opcion5= "Success prediction"
-$opcion6= "General circulation"
-$opcion7= "What do they feel about me?"
-$opcion8= "Chakra"
-$opcion9= "Karma"
-$opcion10= "Tell me my past life"
-$opcion11= "Run of the month"
-$opcion12= "What do I decide?"
-$opcion13= "I don't want to do anything"
 
-
-
-Write-Host "1- $opcion1" -ForegroundColor Magenta
-Write-Host "2- $opcion2" -ForegroundColor Cyan
-Write-Host "3- $opcion3" -ForegroundColor Magenta
-Write-Host "4- $opcion4" -ForegroundColor Cyan
-Write-Host "5- $opcion5" -ForegroundColor Magenta
-Write-Host "6- $opcion6" -ForegroundColor Cyan
-Write-Host "7- $opcion7" -ForegroundColor Magenta
-Write-Host "8- $opcion8" -ForegroundColor Cyan
-Write-Host "9- $opcion9" -ForegroundColor Magenta
-Write-Host "10- $opcion10" -ForegroundColor Cyan
-Write-Host "11- $opcion11" -ForegroundColor Magenta
-Write-Host "12- $opcion12" -ForegroundColor Cyan
-Write-Host "13- $opcion13" -ForegroundColor Magenta
+Write-Host "1- Read me a card" -ForegroundColor Magenta#1
+Write-Host "2- Reading past, present and future" -ForegroundColor Cyan#3
+Write-Host "3- Love prediction" -ForegroundColor Magenta#6
+Write-Host "4- Happiness prediction" -ForegroundColor Cyan#6
+Write-Host "5- Success prediction" -ForegroundColor Magenta#6
+Write-Host "6- General circulation" -ForegroundColor Cyan#10
+Write-Host "7- What do they feel about me?" -ForegroundColor Magenta#4
+Write-Host "8- Chakra" -ForegroundColor Cyan#7
+Write-Host "9- Karma" -ForegroundColor Magenta#8
+Write-Host "10- Tell me my past life" -ForegroundColor Cyan#6
+Write-Host "11- Run of the month" -ForegroundColor Magenta#5
+Write-Host "12- What do I decide?" -ForegroundColor Cyan#7
+Write-Host "13- I don't want to do anything" -ForegroundColor Magenta
 Start-Sleep -Seconds 1
 $decision= Read-Host "What do you want to do today?"
 
- 
-$1= "The Fool Upright: The Fool stands on a cliff's edge, overlooking the limitless potential of their future."
-$2= "The Fool Reversed: The Fool The Fool rushes in without guidance, ignoring all the warning signs."
-$3= "The Magician Upright: The Magician makes real that which is unreal, manifesting desires from nothingness."
-$4= "The Magician Reversed: The Magician manipulates and obscures the truth. Their honeyed words seem like hope in the haze."
-$5= "The High Priestess Upright: The High Priestess stands guardian to the gates of mystery, offering arcane secrets to the initiated."
-$6= "The High Priestess Reversed: The High Priestess stands between you and your inner self, blocking the way forward."
-$7= "The Empress Upright: The Empress embraces her inner beauty and kind nature, allowing it to flourish in the world around her."
-$8= "The Empress Reversed: The Empress gives until there is nothing left for herself, leaving an empty husk behind."
-$9= "The Emperor Upright: The Emperor is in control of his own destiny, building his empire on a solid foundation."
-$10= "The Emperor Reversed: The Emperor rules over his world with an iron fist, allowing nothing to escape his grasp."
-$11= "The Hierophant Upright: The Hierophant values tradition above all, encouraging conformity and trust in established institutions."
-$12= "The Hierophant Reversed: The Hierophant has grown too comfortable in the fortress of tradition, at the expense of necessary progress."
-$13= "The Lovers Upright: The Lovers embrace each other, united by the knowledge they are stronger combined."
-$14= "The Lovers Reversed: The Lovers turn from each other, allowing the bridge of communication between them to crumble."
-$15= "The Chariot Upright: The Chariot is in complete control of its own destiny. It hurtles towards victory, unhindered by adversity."
-$16= "The Chariot Reversed: The Chariot careens out of control, losing its way as it becomes stranded on the road."
-$17= "Strength Upright: Strength can be quiet; often she shines through patience and compassion, not aggression."
-$18= "Strength Reversed: Strength has lost her careful equilibrium, and with it, control of her inner beasts."
-$19= "The Hermit Upright: The Hermit knows the value of silence and embraces it in all things."
-$20= "The Hermit Reversed: The Hermit hides in his cave, shutting out the world and ignoring its lessons."
-$21= "Wheel of Fortune Upright: The Wheel turns endlessly with the passage of time, changing fortunes as if by whim."
-$22= "Wheel of Fortune Reversed: The Wheel must return all to its beginning- life cannot remain in the sun forever."
-$23= "Justice Upright: Justice carefully weighs every option, making her choice with complete objectivity."
-$24= "Justice Reversed: Justice has allowed bias to cloud her judgment, darkening the world with chaos and lies."
-$25= "The Hanged Man Upright: The Hanged Man relinquishes control, sacrificing himself to the judgment of the World."
-$26= "The Hanged Man Reversed The Hanged Man is offered as tribute against his will, and self-determination is wrested from his grasp."
-$27= "Death Upright: Death reaps that which has run its course, allowing new life to grow in the space left behind."
-$28= "Death Reversed: Death turns his back on his duty, allowing things to fester and rot in his negligence."
-$29= "Temperance Upright: Temperance shuns extremes and embraces harmony. She finds tranquility in the midst of struggle."
-$30= "Temperance Reversed: Temperance allows conflict to overwhelm her peaceful disposition; she reacts with extreme measures."
-$31= "The Devil Upright: The Devil knows there is power in perception. He binds those who cannot see their path to freedom."
-$32= "The Devil Reversed: The Devil  loses influence over his flock as the chains of bondage drop from his tight grasp."
-$33= "The Tower Upright: The Tower rises above the world, a beacon of great upheaval and crumbling structure."
-$34= "The Tower Reversed: The Tower is a portent of destruction. Ignoring its message is never wise."
-$35= "The Star Upright: The Star has faith in herself that radiates through the darkness, guiding the lost and weary."
-$36= "The Star Reversed: The Star has allowed doubts to dampen her light, losing faith in herself and the world around her."
-$37= "The Moon Upright: The Moon creates illusions in the dead of night, obscuring truth and casting long shadows."
-$38= "The Moon Reversed: The Moon hangs low and dim in the sky, obscuring the way forward with darkness and confusion."
-$39= "The Sun Upright: The Sun shines brightly on your path, illuminating what seemed lost in the darkness of night."
-$40= "The Sun Reversed: The Sun shines weakly in the sky, threatened by storm clouds building on the horizon."
-$41= "Judgment Upright: Judgment looks within for absolution, shedding time-worn insecurities and guilt."
-$42= "Judgment Reversed: Judgment cannot shed his past. He has become ensnared in self-doubt and flagellation."
-$43= "The World Upright: The World celebrates a journey come full circle. A land of new opportunity lies at your feet."
-$44= "The World Reversed: The World strays from its path just before its final goals are met. Something holds it back."
+$arcanosmayores = @("El Necio Derecho: El necio se encuentra al borde de un acantilado, con vistas al potencial ilimitado de su futuro.","El Necio Reves: El necio se precipita sin guia, ignorando todas las seniales de advertencia.","El Mago Derecho: El mago hace real lo que es irreal, manifestando deseos de la nada.","El Mago Reves: El mago manipula y oscurece la verdad. Sus dulces palabras parecen esperanza en la bruma.","La Suma Sacerdotisa Derecho: La suma sacerdotisa es la guardiana de las puertas del misterio y ofrece secretos arcanos a los iniciados.","La Suma Sacerdotisa Reves: La suma sacerdotisa se interpone entre usted y su yo interior, bloqueando el camino a seguir.","La Emperatriz Derecho: La emperatriz abraza su belleza interior y su naturaleza bondadosa, permitiéndoles florecer en el mundo que la rodea.","La Emperatriz Reves: La emperatriz da hasta que no queda nada para ella, dejando atrás una cáscara vacía.","El Emperador Derecho: El emperador tiene el control de su propio destino, construyendo su imperio sobre una base solida.","El Emperador Reves: El emperador gobierna su mundo con mano de hierro, sin permitir que nada se escape de su alcance.","El Hierofante Derecho: El hierofante valora la tradicion por encima de todo, fomentando la conformidad y la confianza en las instituciones establecidas.","El Hierofante Reves: El hierofante se ha vuelto demasiado comodo en la fortaleza de la tradicion, a expensas del progreso necesario.","Los Amantes Derecho: Los amantes se abrazan, unidos por el conocimiento de que son más fuertes combinados.","Los Amantes Reves: Los amantes se alejan el uno del otro, permitiendo que el puente de comunicacion entre ellos se derrumbe.","El Guerrero Derecho: El guerrero esta en completo control de su propio destino. Se precipita hacia la victoria, sin obstaculos por la adversidad.","El Guerrero Reves: El guerrero se sale de control y pierde el rumbo al quedar varado en el camino.","Fuerza Derecho: La fuerza puede ser tranquila; a menudo ella brilla a traves de la paciencia y la compasion, no de la agresion.","Fuerza Reves: La fuerza ha perdido su cuidadoso equilibrio, y con el, el control de sus bestias interiores.","El Ermitanio Derecho: El ermitanio conoce el valor del silencio y lo abraza en todas las cosas.","El Ermitanio Reves: El ermitanio se esconde en su cueva, aislandose del mundo e ignorando sus lecciones.","Rueda de la Fortuna Derecho: La rueda gira sin cesar con el paso del tiempo, cambiando la fortuna como por capricho.","Rueda de la Fortuna Reves: La rueda debe volver todo a su principio- la vida no puede permanecer en el sol para siempre.","La Justicia Derecho: La justicia sopesa cuidadosamente cada opcion, haciendo su eleccion con total objetividad.","La Justicia Reves: La justicia ha permitido que los prejuicios nublen su juicio, oscureciendo el mundo con caos y mentiras.","El Ahorcado Derecho: El ahorcado renuncia al control, sacrificandose al juicio del Mundo.","El Ahorcado Reves El ahorcado es ofrecido como tributo en contra de su voluntad, y la autodeterminacion es arrebatada de sus manos.","La Muerte Derecho: La muerte cosecha lo que ha seguido su curso, permitiendo que crezca nueva vida en el espacio dejado atras.","La Muerte Reves: La muerte le da la espalda a su deber, permitiendo que las cosas se infecten y se pudran en su negligencia.","La Templanza Derecho: La templanza evita los extremos y abraza la armonia. Ella encuentra tranquilidad en medio de la lucha","La Templanza Reves: La templanza permite que el conflicto abrume su disposicion pacifica; ella reacciona con medidas extremas.","El Diablo Derecho: El diablo sabe que hay poder en la percepcion. El ata a aquellos que no pueden ver su camino hacia la libertad.","El Diablo Reves: El diablo pierde influencia sobre su rebanio cuando las cadenas de la esclavitud caen de su fuerte agarre.","La Torre Derecho: La torre se eleva sobre el mundo, un faro de gran agitacion y estructura desmoronada.","La Torre Reves: La torre es un presagio de destruccion. Ignorar su mensaje nunca es sabio.","La Estrella Derecho: La estrella tiene fe en s misma que irradia a traves de la oscuridad, guiando a los perdidos y cansados.","La Estrella Reves: La estrella ha permitido que las dudas empanien su luz, perdiendo la fe en si misma y en el mundo que la rodea.","La Luna Derecho: La luna crea ilusiones en la oscuridad de la noche, oscureciendo la verdad y proyectando largas sombras.","La Luna Reves: La luna cuelga baja y tenue en el cielo, oscureciendo el camino a seguir con oscuridad y confusion.","El Sol Derecho: El sol brilla con fuerza en tu camino, iluminando lo que parecia perdido en la oscuridad de la noche.","El Sol Reves: El sol brilla debilmente en el cielo, amenazado por nubes de tormenta que se forman en el horizonte.","El Juicio Derecho: El juicio busca la absolucion en el interior, despojandose de las inseguridades y la culpa desgastadas por el tiempo.","El Juicio Reves: El juicio no puede despojarse de su pasado. Ha quedado atrapado en la duda y la flagelacion.","El Mundo Derecho: El mundo celebra un viaje que completa el circulo. Una tierra de nuevas oportunidades se encuentra a tus pies.","El Mundo Reves: El mundo se desvia de su camino justo antes de que se cumplan sus objetivos finales. Algo lo detiene.") 
 
-function carta{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44   
-}
-function lectura{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 3
-}
-function amor{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 6
-}
-function felicidad{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 6
-}
-function exito{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 6
-}
-function general{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 10
-}
-function sentimientos{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 4
-}
-function chakra{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 7
-}
-function karma{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 8
-}
-function pasada{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 6
-}
-function mes{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 5
-}
-function decido{
-    Clear-Host
-    Get-Random $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44 -Count 7
+switch ($decision){
+    1{$option = $arcanosmayores | Get-random}
+    2{$option = $arcanosmayores | Get-random -count 3}
+    3{$option = $arcanosmayores | Get-random -count 6}
+    4{$option = $arcanosmayores | Get-random -count 6}
+    5{$option = $arcanosmayores | Get-random -count 6}
+    6{$option = $arcanosmayores | Get-random -count 10}
+    7{$option = $arcanosmayores | Get-random -count 4}
+    8{$option = $arcanosmayores | Get-random -count 7}
+    9{$option = $arcanosmayores | Get-random -count 8}
+    10{$option = $arcanosmayores | Get-random -count 6}
+    11{$option = $arcanosmayores | Get-random -count 5}
+    12{$option = $arcanosmayores | Get-random -count 7}
+    13{Write-Host "Ok then my dear client, have a good day"}
 }
 
-if ($decision -eq 1){
-    carta
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 2){
-    lectura
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 3){
-    amor
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 4){
-    felicidad
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 5){
-    exito
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 6){
-    general
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 7){
-    sentimientos
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 8){
-    chakra
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 9){
-    karma
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 10){
-    pasada
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 11){
-    mes
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 12){
-    decido
-    Write-host "Thank you for your visit. I hope you are satisfied with your reading."
-    break
-}
-elseif ($decision -eq 13){
-   Write-Host "It's okay my dear client, although I think we'll see each other soon."
-   break
-}
-else{
-    Clear-Host
-    Write-Host "I see that you are funny, so I will not read you the cards."
-    break
-}
+Write-Host "$option"
+break
